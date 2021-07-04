@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(#016480f3,#0a5768);
+}
+h3 {
+    font-size: 23px;
+    font-weight: 500;
+}
+svg {
+    width: 110px;
+    height: 110px;
+}
+input{
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333333;
+    outline: none;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  
+}
+.whole{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100vw;
+    height: 100vh;
+}
+.sign_in{
+    display: inline-block;
+    margin-top: -110px;
+    margin-bottom: 20px;
+}
+.sign_in > p{
+    font-size: 14px;
+}
+.login_form{
+    width: 33vw;
+    height: 65vh;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+main > img{
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+.bottom{
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    margin-top: 25px;
+    background-color: #fff;
+    width: 33vw;
+    height: 45px;
+}
+.bottom > svg{
+    width: 35px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+.bottom > p{
+    margin-right: 200px;
+    margin-left: 10px;
+    position: relative;
+    margin-top: 10px;
+    
+}
+.bottom:hover{
+    background-color: #E5E5E5;
+    cursor: pointer;
+}
+.form_bottom-section1 {
+    font-size: 14px;
+    
+}
+.form_bottom-section1 > p{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.form_bottom-section1 > a {
+    text-decoration: none;
+}
+.link_bottom {
+    text-decoration: none;
+}
+.form_bottom-section2 .sign_in_security_key > svg {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 6px;
+    left: 3px;
+
+}
+.sign_in_security_key> a{
+    font-size: 15px;
+}
+button{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 120px;
+    height: 28px;
+    background-color: #0067b8;
+    cursor: pointer;
+    outline: none;
+    
+}
+button:hover{
+    background-color: #095d9e ;
+    transition: 0.5s;
+    outline: none;
+    
+}
